@@ -1,0 +1,19 @@
+{
+  "cSpell.enabled": true,
+  "cSpell.enableFiletypes": [
+    "markdown",
+    "python",
+    "terraform",
+    "hcl",
+    "json",
+    "yaml"
+  ],
+  "cSpell.customDictionaries": {
+    "project-terms": {
+      "name": "Project Terms",
+      "path": "${workspaceFolder}/cspell.json",
+      "addWords": true
+    }
+  }
+}
+

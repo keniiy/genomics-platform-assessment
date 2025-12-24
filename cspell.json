@@ -1,0 +1,125 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "sanitiser",
+    "sanitization",
+    "sanitized",
+    "sanitizing",
+    "EXIF",
+    "Pillow",
+    "boto",
+    "boto3",
+    "botocore",
+    "terraform",
+    "tfvars",
+    "lambda",
+    "IAM",
+    "ARN",
+    "ARNs",
+    "CloudWatch",
+    "SQS",
+    "DynamoDB",
+    "SNS",
+    "WAF",
+    "X-Ray",
+    "Glacier",
+    "genomics",
+    "HIPAA",
+    "GDPR",
+    "RGBA",
+    "JPEG",
+    "PNG",
+    "WebP",
+    "TIFF",
+    "PIL",
+    "exiftool",
+    "pyproject",
+    "mypy",
+    "isort",
+    "pytest",
+    "pytest-cov",
+    "Makefile",
+    "tfstate",
+    "tfplan",
+    "tfvars",
+    "devops",
+    "DevOps",
+    "CodePipeline",
+    "CodeBuild",
+    "monorepo",
+    "runbooks",
+    "backlogs",
+    "prepolishing",
+    "over-polishing"
+  ],
+  "ignoreWords": [
+    "tfvars",
+    "tfstate"
+  ],
+  "flagWords": [],
+  "ignorePaths": [
+    "node_modules",
+    ".terraform",
+    "*.tfstate",
+    "*.tfstate.*",
+    "*.zip",
+    "deployment.zip",
+    "__pycache__",
+    ".pytest_cache",
+    ".mypy_cache",
+    "htmlcov",
+    ".coverage",
+    "*.pyc"
+  ],
+  "dictionaries": [
+    "typescript",
+    "node",
+    "html",
+    "css",
+    "bash",
+    "dockerfile",
+    "markdown",
+    "python"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-terms",
+      "path": "./cspell-words.txt",
+      "addWords": true
+    }
+  ],
+  "useGitignore": true,
+  "enabledLanguageIds": [
+    "markdown",
+    "python",
+    "javascript",
+    "typescript",
+    "json",
+    "yaml",
+    "yml",
+    "terraform",
+    "hcl"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.tf",
+      "languageSettings": [
+        {
+          "languageId": "terraform",
+          "locale": "en"
+        }
+      ]
+    },
+    {
+      "filename": "**/*.py",
+      "languageSettings": [
+        {
+          "languageId": "python",
+          "locale": "en"
+        }
+      ]
+    }
+  ]
+}
+
